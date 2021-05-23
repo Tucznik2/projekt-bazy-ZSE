@@ -1,0 +1,43 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo, .menu{
+    background-color: #115c97;
+    color: dodgerblue;
+    height: 100px;
+    width: 50%;
+    text-align: center;
+    font-size: 150%;
+    float: left;
+}
+main{
+    background-color: #accee8;
+    height: 400px;
+    padding: 30px;
+    clear: both;
+}
+.stopka1, .stopka2, .stopka3, .stopka4{
+    background-color: #115c97;
+    height: 200px;
+    width: 25%;
+    float: left;
+}
+a{
+    color: dodgerblue;
+    margin: 10px;
+}
+table{
+    width: 100%;
+    border: 1px solid blue;
+}
+th{
+    background-color: #115c97;
+    color: white;
+}
+td{
+    border: 1px dashed blue;
+}
+tr:hover{
+    background-color: #115c97;
+    color: white;
+}
