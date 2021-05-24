@@ -14,7 +14,7 @@
         </div>
         <nav class="menu">
             <a href="index.php">Główna</a>
-            <a href="hdd.html">Nowe produkty</a></a>
+            <a href="noweprod.php">Nowe produkty</a></a>
         </nav>
     </header>
     <main>
