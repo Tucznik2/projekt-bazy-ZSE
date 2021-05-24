@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Podzespoły komputerowe</title>
     <link rel="stylesheet" href="assets/css/styl_1.css">
+    <link rel="stylesheet" href="assets/css/noweprod.css">
 </head>
 <body>
     <header>
@@ -21,25 +22,27 @@
         <h2>Wprowadzanie nowych produktów</h2>
         <fieldset>
             <form method="post">
-                <label for="typ">Typ produktu</label>
-                <select name="typ" id="typ">
-                    <?php require_once('assets/php/categories.php') ?>
-                </select><br>
-                <label for="producent">Producent</label>
-                <select name="producent" id="producent">
-                    <?php require_once('assets/php/producers.php') ?>
-                </select><br>
-                <label for="nazwa">Nazwa produktu</label>
-                <input type="text" name="nazwa" id="nazwa"><br>
-                <label for="opis">Opis produktu</label>
-                <input type="text" name="opis" id="opis"></br>
-                <label for="dostepnosc">Dostępność</label>
-                <select name="dostepnosc" id="dostepnosc">
-                    <option value="0">Nie</option>
-                    <option value="1">Tak</option>
-                </select></br>
-                <label for="cena">Cena</label>
-                <input type="number" name="cena" id="cena"><br>
+                <div class="container">
+                    <label for="typ">Typ produktu</label></br>
+                    <label for="producent">Producent</label></br>
+                    <label for="nazwa">Nazwa produktu</label></br>
+                    <label for="opis">Opis produktu</label></br>
+                    <label for="dostepnosc">Dostępność</label></br>
+                    <label for="cena">Cena</label>
+                    <select name="typ" id="typ">
+                        <?php require_once('assets/php/categories.php') ?>
+                    </select><br>
+                    <select name="producent" id="producent">
+                        <?php require_once('assets/php/producers.php') ?>
+                    </select><br>
+                    <input type="text" name="nazwa" id="nazwa"><br>
+                    <input type="text" name="opis" id="opis"></br>
+                    <select name="dostepnosc" id="dostepnosc">
+                        <option value="0">Nie</option>
+                        <option value="1">Tak</option>
+                    </select></br>
+                    <input type="number" name="cena" id="cena"><br>
+                </div>
                 <input type="submit" value="Dodaj">
             </form>
         </fieldset>

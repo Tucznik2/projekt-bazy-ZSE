@@ -1,0 +1,59 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+#typ{
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+#producent{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+#nazwa{
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+#opis{
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+#dostepnosc{
+    grid-column-start: 2;
+    grid-row-start: 5;
+}
+#cena{
+    grid-column-start: 2;
+    grid-row-start: 6;
+}
+label[for=typ]{
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+label[for=producent]{
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+label[for=nazwa]{
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+label[for=opis]{
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
+label[for=dostepnosc]{
+    grid-column-start: 1;
+    grid-row-start: 5;
+}
+label[for=cena]{
+    grid-column-start: 1;
+    grid-row-start: 6;
+}
+#typ, #producent, #nazwa, #opis, #dostepnosc, #cena{
+    border: 1px solid #115c97;
+    border-radius: 3px;
+}
