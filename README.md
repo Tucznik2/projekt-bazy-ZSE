@@ -14,3 +14,5 @@ Wykorzystane techhonologie:
 -Linux
 
 -Git
+
+-MYSQL
